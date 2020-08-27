@@ -1,0 +1,14 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+  <title>Wonyoung Choi</title>
+{% endblock %}
+
+{% block body_block %}
+  <div class="jumbotron">
+    <img src="{% static 'images/portfolio_profile_image.jfif' %}" alt="Profile Picture">
+    <p>hello</p>
+  </div>
+{% endblock body_block %}
