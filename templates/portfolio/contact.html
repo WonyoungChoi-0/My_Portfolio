@@ -1,0 +1,23 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+  <title>Contact Info</title>
+{% endblock %}
+
+{% block body_block %}
+  <div class="jumbotron">
+    <div class="media">
+      <img class="media-object" src="{% static 'images/portfolio_profile_image.jfif' %}" alt="Face">
+      <div class="media-body">
+        <h1 class="mt-0 info">Contact Me</h1>
+        <br>
+        <p class="info">
+          Email: <a href="mailto: choiwc.wonyoung@gmail.com">choiwc.wonyoung@gmail.com</a> <br>
+          Phone: 571-379-0572
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock body_block %}
