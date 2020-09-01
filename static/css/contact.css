@@ -1,0 +1,19 @@
+.jumbotron {
+  margin-top: 20px;
+  position: relative;
+}
+
+img {
+  width: 25%;
+  border: black solid 3px;
+  margin-left: 5%;
+  border-radius: 3%;
+}
+
+.info {
+  margin-left: 5%;
+}
+
+p {
+  font-size: 28px;
+}

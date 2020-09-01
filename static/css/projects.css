@@ -40,3 +40,9 @@ img {
 .white {
   background-color: white;
 }
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

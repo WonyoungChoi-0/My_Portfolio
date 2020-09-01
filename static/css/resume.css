@@ -1,12 +1,36 @@
 .jumbotron {
   margin-top: 20px;
+  position: relative;
+  text-align: center;
 }
 
 img {
   max-width: 75%;
 }
 
-a {
-  margin-left: 20px;
-  width: 12%;
+.btn {
+  font-size: 28px;
+  width: 8%;
+  margin-left: 5%;
+}
+
+.flexContainer {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  .flexContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .btn {
+    margin-top: 2%;
+    width: 15%;
+    margin-left: 0%;
+  }
 }

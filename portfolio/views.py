@@ -16,3 +16,6 @@ def resume(request):
 
 def research(request):
     return render(request, 'portfolio/research.html')
+
+def contact(request):
+    return render(request, 'portfolio/contact.html')
