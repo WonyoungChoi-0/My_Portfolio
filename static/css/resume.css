@@ -1,3 +1,12 @@
 .jumbotron {
   margin-top: 20px;
 }
+
+img {
+  max-width: 75%;
+}
+
+a {
+  margin-left: 20px;
+  width: 12%;
+}

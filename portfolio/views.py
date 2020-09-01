@@ -13,3 +13,6 @@ def industry(request):
 
 def resume(request):
     return render(request, 'portfolio/resume.html')
+
+def research(request):
+    return render(request, 'portfolio/research.html')

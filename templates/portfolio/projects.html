@@ -3,11 +3,43 @@
 
 {% block head %}
   <link rel="stylesheet" href="{% static 'css/projects.css' %}">
-  <title>My Projects</title>
+  <title>Projects</title>
 {% endblock %}
 
 {% block body_block %}
-  <div class="jumbotron">
-
+  <div class="jumbotron white">
+    <div class="media">
+      <img class="media-object feedingLogPhoto" src="{% static 'images/PetsList.PNG' %}" alt="Pet Feeding Log">
+      <div class="media-body">
+        <h1 class="mt-0 info feedingLogHeader">Pet Feeding Log</h1>
+        <p class="feedingLogInfo">
+          A web application for logging feeding entries for your pets <br>
+          Create an account and register all your pets <br>
+          Keep track of feedings by using an user-friendly interface <br>
+          <br>
+          Created using Django and Python <br>
+          Deployed through pythonanywhere.com <br>
+        </p>
+        <a class="feedingLogInfo Info btn btn-primary" href="http://wonyoungchoi.pythonanywhere.com/" target="__new">Try it Out</a>
+      </div>
+    </div>
   </div>
+  <div class="jumbotron">
+    <div class="media">
+      <div class="media-body">
+        <h1 class="mt-0 info coopHeader">Coop</h1>
+        <p class="coopInfo">
+          A web application for uploading and viewing notes <br>
+          Create an account and upload your notes <br>
+          Share your notes with friends and view their notes <br>
+          <br>
+          Created using Django and Python <br>
+          Hackathon project with Joon Kim and Tyra Krehbiel
+        </p>
+      </div>
+      <img class="media-object coopPhoto" src="{% static 'images/coop.PNG' %}" alt="Coop">
+    </div>
+  </div>
+
+  <br> <br>
 {% endblock body_block %}

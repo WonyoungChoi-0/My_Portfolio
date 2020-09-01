@@ -1,3 +1,42 @@
 .jumbotron {
   margin-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+img {
+  max-width: 40%;
+  border: 6px solid black;
+  border-radius: 10px;
+}
+
+.feedingLogHeader {
+  margin-left: 10%;
+}
+
+.coopHeader {
+  margin-left: 20%;
+}
+
+.feedingLogPhoto {
+  margin-left: 3%;
+}
+
+.feedingLogInfo {
+  margin-left: 10%;
+  font-size: 28px;
+}
+
+.coopInfo {
+  margin-right: 10%;
+  font-size: 28px;
+  margin-left: 20%;
+}
+
+.coopPhoto {
+  margin-right: 3%;
+}
+
+.white {
+  background-color: white;
 }
