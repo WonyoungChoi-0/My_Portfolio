@@ -1,0 +1,27 @@
+img {
+  max-width: 45%;
+  border: 6px solid black;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.white {
+  background-color: white;
+}
+
+.info {
+  margin-top: 1%;
+}
+
+p {
+  font-size: 28px;
+}
+
+.btn {
+  font-size: 28px;
+}

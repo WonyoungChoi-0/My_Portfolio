@@ -1,0 +1,41 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'css/research.css' %}">
+  <title>Research</title>
+{% endblock %}
+
+{% block body_block %}
+  <div class="jumbotron white">
+    <img src="{% static 'images/Solar Car.jpg' %}" alt="Solar Car">
+    <h1 class="info">UVA Solar Car Team</h1>
+    <p>
+      During my first year of university, I joined the UVA solar car team. <br>
+      Solar car was a great experience, I was able to acquire a variety of <br>
+      different skills such as 3D design and welding. I eventually <br>
+      became the steering geometry lead of the mechanical sector and <br>
+      through extensive research of steering geometry, my team was able <br>
+      to produce a finished product for the car. That summer I had the privilege <br>
+      to attend the FSGP summer race where I was exposed to various different <br>
+      levels of design and engineering.
+    </p>
+    <a class="info btn btn-primary" href="https://www.solarcaratuva.org/" target="__new">Learn More</a>
+  </div>
+
+  <div class="jumbotron">
+    <img src="{% static 'images/Ecovillage.jpg' %}" alt="Ecovillage">
+    <h1 class="info">Charlottesville Ecovillage</h1>
+    <p>
+      During Spring 2019, I joined an organization at UVA called Engineers <br>
+      Going Global where students could participate in various research projects. <br>
+      My team was tasked to work with the local Ecovillage in Charlottesville, <br>
+      Virginia. The Ecovillage aims to create a community that lives sustainably. <br>
+      Our task was to design and build a playground piece that was not only <br>
+      sustainable, but also transportable. During this project, I learned how to <br>
+      pitch engineering projects and acquire grants while also further developing <br>
+      my engineering skills in a team environment.
+    </p>
+    <a class="info btn btn-primary" href="https://www.ecovillagecharlottesville.org/" target="__new">Learn More</a>
+  </div>
+{% endblock body_block %}

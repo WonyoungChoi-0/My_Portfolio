@@ -3,11 +3,14 @@
 
 {% block head %}
   <link rel="stylesheet" href="{% static 'css/resume.css' %}">
-  <title>My Resume</title>
+  <title>Resume</title>
 {% endblock %}
 
 {% block body_block %}
   <div class="jumbotron">
-
+    <div class="container">
+      <img src="{% static 'images/Resume.jpg' %}" alt="">
+      <a href="{% static 'files/Resume.pdf'%}" class="btn btn-primary" target="_new">Download</a>
+    </div>
   </div>
 {% endblock body_block %}
